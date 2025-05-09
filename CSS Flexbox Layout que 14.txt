@@ -1,0 +1,26 @@
+css
+.navbar {
+  display: flex;
+  align-items: center;         /* Vertically center items */
+  justify-content: space-between; /* Space between logo and links */
+  background-color: #333;
+  padding: 10px 20px;
+  flex-wrap: nowrap;           /* Prevent wrapping */
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;         /* Align links horizontally */
+  gap: 20px;                   /* Even spacing between links */
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+}
